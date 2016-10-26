@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="TestChrome">
-  <parameter name="browser" value="chrome" />
+  <test name="TestFirefox">
+  <parameter name="browser" value="firefox" />
     <classes>
       <class name="com.projects.scripts.VerifyValidLogin"/>
       <class name="com.projects.scripts.VerifyInvalidLogin"/>
@@ -11,16 +11,5 @@
       <class name="com.projects.scripts.VerifyProductListings"/>
       <class name="com.projects.scripts.VerifyProductDetailPage"/>
     </classes>
-  </test> <!-- TestChrome -->
-  <test name="TestFireFox">
-  <parameter name="browser" value=" " />
-    <classes>
-      <class name="com.projects.scripts.VerifyValidLogin"/>
-      <class name="com.projects.scripts.VerifyInvalidLogin"/>
-      <class name="com.projects.scripts.VerifyAutosuggestions"/>
-      <class name="com.projects.scripts.VerifyPagination"/>
-      <class name="com.projects.scripts.VerifyProductListings"/>
-      <class name="com.projects.scripts.VerifyProductDetailPage"/>
-    </classes>
-  </test> <!-- TestFireFox -->
+  </test> <!-- TestFirefox -->
 </suite> <!-- Suite -->
